@@ -1,0 +1,161 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+}
+
+*{
+    text-decoration: none;
+}
+
+#item1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+    border: 1px solid black;
+}
+
+#item2{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+    border: 1px solid black;
+}
+
+#item3{
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+    border: 1px solid black;
+}
+
+#item4{
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    
+    border: 1px solid black;
+}
+
+#item5{
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+    border: 1px solid black;
+}
+
+#item6{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+    border: 1px solid black;
+}
+
+#item7{
+    grid-column-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+    border: 1px solid black;
+}
+
+#item8{
+    grid-column-start: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    
+    border: 1px solid black;
+}
+
+#item9{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+    border: 1px solid black;
+}
+
+#item10{
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+    border: 1px solid black;
+}
+
+#item11{
+    grid-column-start: 3;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+    border: 1px solid black;
+}
+
+#item12{
+    grid-column-start: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    
+    border: 1px solid black;
+}
+
+#item13{
+    grid-column-start: 1;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    
+    border: 1px solid black;
+}
+
+#item14{
+    grid-column-start: 2;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    
+    border: 1px solid black;
+}
+
+#item15{
+    grid-column-start: 3;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    
+    border: 1px solid black;
+}
+
+#item16{
+    grid-column-start: 4;
+    grid-row-start: 4;
+    grid-row-end: 4;
+    
+    border: 1px solid black;
+}
+
+#item17{
+    grid-column-start: 1;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    
+    border: 1px solid black;
+}
+
+#item18{
+    grid-column-start: 2;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    
+    border: 1px solid black;
+}
+
+#item19{
+    grid-column-start: 3;
+    grid-row-start: 5;
+    grid-row-end: 5;
+    
+    border: 1px solid black;
+}
