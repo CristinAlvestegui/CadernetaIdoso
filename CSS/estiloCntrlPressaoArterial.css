@@ -1,5 +1,8 @@
-td ,th{
+td , th{
     border: 1px solid black;
+}
+
+footer{
     text-align: center;
 }
 
