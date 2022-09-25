@@ -10,6 +10,10 @@ table, th, td{
     border: 2px solid rgb(67, 91, 228);
 }
 
+tr :hover{
+    background-color: rgb(111, 243, 250);
+}
+
 input[type="numer"]{
     width: 40px;
 }
