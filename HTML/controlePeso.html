@@ -1,0 +1,148 @@
+<!Doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="../CSS/estiloPeso.css"></link>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <di>
+            <fieldset>
+                <legend>Dados antropométricos</legend>
+                <table>
+                    <thead>
+                        <tr>
+                            <td></td>
+                            <th>20<input type="number"></th></th>
+                            <th>20<input type="number"></th></th>
+                            <th>20<input type="number"></th></th>
+                            <th>20<input type="number"></th></th>
+                            <th>20<input type="number"></th></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th>Peso</th>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th>Altura</th>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th>IMC=peso/altua²</th>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                        <tr>
+                            <th>Perímetro da panturrilha (PP) esquerda</th>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                            <td><input type="text"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <img src="../fotos/graficoPeso.PNG">
+                <fieldset>
+                    <p> A medida do perímetro da panturrilha esquerda é um bom parâmetro de avaliação<br>
+                    da massa muscular no idoso. Medidas menores que 31cm são indicativas de<br> 
+                    redução da massa muscular (sarcopenia) e estão associadas a maior risco de<br> 
+                    quedas, diminuição da força muscular e dependência funcional</p>
+                </fieldset>
+            </fieldset>
+        </di>
+
+        <div>
+            <fieldset>
+                <legend>Controle de Peso</legend>
+                <table>
+                    <thead>
+                        <tr>
+                            <td><strong>Controle de perda de peso</strong></td>
+                            <th colspan="2">20<input type="number"></th>
+                            <th colspan="2">20<input type="number"></th>
+                            <th colspan="2">20<input type="number"></th>
+                            <th colspan="2">20<input type="number"></th>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <th>S</th>
+                            <th>N</th>
+                            <th>S</th>
+                            <th>N</th>
+                            <th>S</th>
+                            <th>N</th>
+                            <th>S</th>
+                            <th>N</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Você apresentou <strong>perda de peso não intencional*</strong>de, no mínimo, 4.5kg ou de 5% do seu peso corporal no ultimo ano?</th>
+                            <td><input type="radio" name="peso1" value="sim"></td>
+                            <td><input type="radio" name="peso1" value="não"></td>
+                            <td><input type="radio" name="peso2" value="sim"></td>
+                            <td><input type="radio" name="peso2" value="não"></td>
+                            <td><input type="radio" name="peso3" value="sim"></td>
+                            <td><input type="radio" name="peso3" value="não"></td>
+                            <td><input type="radio" name="peso4" value="sim"></td>
+                            <td><input type="radio" name="peso4" value="não"></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <img src="../fotos/controlPeso.PNG">
+            </fieldset>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Índice antropométrico</th>
+                    <th>Pontos de corte</th>
+                    <th>Classificação do estado nutricional</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4">IMC</th>
+                </tr>
+                <tr>
+                    <td> < 22kg/m² </td>
+                    <td>Baixo Peso</td>
+                </tr>
+                <tr>
+                    <td> > 22 e < 22kg/m²</td>
+                    <td>Peso adequado</td>
+                </tr>
+                <tr>
+                    <td> > 27kg/m²</td>
+                    <td>Sobrepeso</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p><strong>*</strong>Perda de peso não intencional é aquele emagrecimento que não aconteceu por decisão<br>
+        própria. Caso isso ocorra, deve-se investigar as possíveis causas</p>
+    </body>
+</html>
