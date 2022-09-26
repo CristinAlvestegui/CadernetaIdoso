@@ -48,3 +48,39 @@ legend{
     padding: 10px;
 }
 
+#escalador{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    background: linear-gradient(to right, rgb(0, 42, 255), #0f0, #ff0, #f00);
+}
+
+#escalador label{
+    display: block;
+    cursor: pointer;
+    width: 35px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: #000;
+    background: transparent;
+}
+
+body #escalalabel{
+    text-align: center;
+    display: inline;
+}
+
+body #escalalabel #leve{
+    position: relative;
+    right: 115px;
+}
+
+body #escalalabel #intensa{
+    position: relative;
+    left: 120px;
+}
