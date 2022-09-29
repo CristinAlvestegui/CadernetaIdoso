@@ -2,7 +2,11 @@
     display: grid;
     grid-template-columns: 25%;
     text-align: center;
-    margin: 5px;
+}
+
+.fotoss{
+    width: 145%;
+    height: 70%;
 }
 
 a{
@@ -144,50 +148,4 @@ a{
     grid-column-start: 3;
     grid-row-start: 5;
     grid-row-end: 5;
-}
-
-#idoso{
-    background-image: url(../Fotos/idosos.jpg);
-    height: 442px;
-    width: 58%;
-}
-
-#cuidador{
-    background-image: url(../Fotos/cuidador.jpg);
-    background-position-x: -175px;
-    height: 442px;
-    width: 58%;
-}
-
-.field{
-    border: 1px solid white;
-    border-radius: 25px;
-    margin: 30px auto;
-}
-
-legend{
-    background-color: white;
-    border-radius: 80px;
-    width: 120px;
-    height: 25px;
-    text-align: center;
-}
-
-input[type="text"]{
-    padding: 5px 5px 5px 15px;
-    border:1px solid black;
-    border-radius: 4px;
-    text-align: center;
-}
-
-button{
-    cursor: pointer;
-    width: 120px;
-    height: 30px;
-}
-
-.loginss{
-    position: relative;
-    top: 30px;
-    left: 20px;
 }

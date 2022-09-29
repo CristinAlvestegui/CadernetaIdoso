@@ -6,3 +6,22 @@ td ,th{
 table{
     margin:auto;
 }
+
+input[type=text]{
+    padding: 5px 5px 5px 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 160px;
+}
+
+#tNomeDaMãe, #tUF, #tPais, #tDeficiencia{
+    width: 230px;
+}
+
+#tUnidadeSaude, #tAlergia{
+    width: 280px
+}
+
+tr :hover{
+    background-color: rgb(111, 243, 250);
+}
