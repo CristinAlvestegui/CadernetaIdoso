@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 td ,th{
     border: 1px solid black;
     text-align: center;
@@ -23,4 +24,19 @@ textarea{
 
 fieldset{
     border-left: 25px solid #90D4FD;
+=======
+td ,th{
+    border: 1px solid black;
+    text-align: center;
+}
+
+table, fieldset, td, th{
+    margin:auto; 
+    border: 2px solid rgb(67, 91, 228);   
+}
+
+#aviso{
+    text-align: center;
+    color: rgb(67, 91, 228);
+>>>>>>> 4b765830437b59be60fb45d80d9909bc6cdda6c1
 }
