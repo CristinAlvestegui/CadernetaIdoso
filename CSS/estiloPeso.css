@@ -1,5 +1,5 @@
 body{
-    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 table{
     border-collapse: collapse;
@@ -7,80 +7,16 @@ table{
 }
 
 table, th, td{
-    border: 2px solid rgb(67, 91, 228);
+    border: 2px solid #89BBE8 ;
 }
 
-table .inpuAno{
-    width: 160px;
-}
-
-tr :hover{
-    background-color: rgb(111, 243, 250);
-}
-
-input[type="number"]{
+.inpuAno{
     width: 40px;
 }
 
-table .branco{
+input[type="text"]{
+    width: 90px;
+    height: 30px;
     border: none;
-    border-collapse: collapse;
-}
-
-fieldset .outroField{
-    border-right: 20px solid rgb(67, 91, 228);
-    border-left: 1px solid rgb(67, 91, 228);
-}
-
-fieldset{
-    padding: 20px;
-    margin: 20px 0;
-    border: 3px solid rgb(67, 91, 228);
-    border-left: 20px solid rgb(67, 91, 228);
-    display: inline-block;
-}
-
-legend{
-    background-color: rgb(67, 91, 228);
-    text-align: center;
-    font-size: 28px;
-    letter-spacing: 0.04em;
-    padding: 10px;
-}
-
-#escalador{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #000;
-    background: linear-gradient(to right, rgb(0, 42, 255), #0f0, #ff0, #f00);
-}
-
-#escalador label{
-    display: block;
-    cursor: pointer;
-    width: 35px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    color: #000;
-    background: transparent;
-}
-
-body #escalalabel{
-    text-align: center;
-    display: inline;
-}
-
-body #escalalabel #leve{
-    position: relative;
-    right: 115px;
-}
-
-body #escalalabel #intensa{
-    position: relative;
-    left: 120px;
+    
 }
