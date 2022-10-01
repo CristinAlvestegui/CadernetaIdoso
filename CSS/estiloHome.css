@@ -1,5 +1,6 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
 }
 
 legend{
@@ -23,9 +24,6 @@ h4{
     height: 70%;
 }
 
-a{
-    text-decoration: none;
-}
 
 .itemss h4:hover{
     background: #eb8a1c;
