@@ -1,3 +1,8 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
 #idoso{
     background-image: url(../Fotos/idosos.jpg);
     height: 442px;
@@ -42,4 +47,14 @@ button{
     position: relative;
     top: 30px;
     left: 20px;
+}
+
+button{
+    text-align: center;
+    font-size: 15px;
+    background-color: #CAD9C2 ;
+    padding: 5px;
+    border-radius: 4px;
+    border: 0;
+    width: 150px;
 }
