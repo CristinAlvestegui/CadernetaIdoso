@@ -10,14 +10,13 @@
 <body>
 
 
-    <form>
+    <form action="/" method="POST">
         <fieldset>
             <legend><h3>Cadastro Idoso</h3></legend>
             <fieldset>
                 <legend>Dados Pessoais</legend>
 
-                <label>Envie uma foto recente</label><br><input type="file" accept=".jpg, .png, .jpge" id="loadFoto"
-                    required></input><br>
+                <label>Envie uma foto recente</label><br><input type="file" accept=".jpg, .png, .jpge" id="loadFoto" required></input><br>
 
                 <label id="lNome" name="lNome">Nome Completo:</label><br>
                 <input type="text" id="tNome" name="tNovoNome" placeholder="Informe seu nome" /><br>
@@ -49,8 +48,8 @@
 
 
                 <label>Sexo:</label><br>
-                <label><input type="radio" name="sexo" value="masculino">Masculino</label>
-                <label><input type="radio" name="sexo" value="feminino">Feminino</label><br>
+                <label><input type="radio" name="tSexo" value="masculino">Masculino</label>
+                <label><input type="radio" name="tSexo" value="feminino">Feminino</label><br>
 
 
                 <label id="lUF" name="lUF">Munucipio de Nascimento/UF:</label><br>
@@ -58,9 +57,9 @@
 
 
                 <label>Nacionalidade:</label><br>
-                <label><input type="radio" name="nacionalidade" value="brasileira">Brasileira</label>
-                <label><input type="radio" name="nacionalidade" value="naturalizada">Naturalizada</label>
-                <label><input type="radio" name="nacionalidade" value="estrangeira">Estrangeira</label><br>
+                <label><input type="radio" name="tNacionalidade" value="brasileira">Brasileira</label>
+                <label><input type="radio" name="tNacionalidade" value="naturalizada">Naturalizada</label>
+                <label><input type="radio" name="tNacionalidade" value="estrangeira">Estrangeira</label><br>
 
 
 
@@ -68,8 +67,8 @@
                 <input type="text" id="tPais" name="tNovoPais" placeholder="Informe seu País de Nascimento"><br>
 
                 <label>Sabe ler e escrever?</label><br>
-                <label><input type="radio" name="ler" value="sim">Sim</label>
-                <label><input type="radio" name="ler" value="nao">Não</label><br>
+                <label><input type="radio" name="tLer" value="sim">Sim</label>
+                <label><input type="radio" name="tLer" value="nao">Não</label><br>
 
                 <label>Escolaridade:</label><br>
                 <label><input type="radio" name="escolaridade" value="nenhuma">Nenhuma</label>
@@ -365,7 +364,8 @@
             <br><br>
             <button type="button">Cadastrar Dados</button>
 
-        </fieldset><br>   </form>
+        </fieldset><br>   
+    </form>
 
 
 </body>
